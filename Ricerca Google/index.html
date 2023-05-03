@@ -1,0 +1,155 @@
+<!DOCTYPE html
+<html>
+    <head>
+    <title>Motore di ricerca</title>
+    </head>
+    <body>
+    <div class="container">
+        <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/706px-Google_%22G%22_Logo.svg.png" alt="Logo" />
+        <form>
+            <input type="text" placeholder="Cerca..." />
+            <button type="submit">Cerca</button>
+        </form>
+        <nav>
+            <ul>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Web</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Immagini</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Video</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">News</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Altro</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+        <h1>Risultati della ricerca</h1>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Risultato 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Risultato 2</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Risultato 3</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Risultato 4</a></li>
+        </ul>
+        </main>
+        <footer>
+        <p>Copyright © 2023
+        </footer>
+    </div>
+    </body>
+
+    <!-- css  -->
+    <style>
+     * {
+    box-sizing: border-box;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #202124;
+    background-color: #f5f5f5;
+    }
+
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+
+    header img {
+    max-width: 120px;
+    margin-right: 20px;
+    }
+
+    form {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    overflow: hidden;
+    }
+
+    input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    }
+
+    button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+
+    nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    nav li {
+    margin: 0 10px;
+    }
+
+    nav a {
+    color: #202124;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+    nav a:hover {
+    text-decoration: underline;
+    }
+
+    main {
+    margin-bottom: 20px;
+    }
+
+    h1 {
+    font-size: 24px;
+    font-weight: bold;
+    }
+
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    li {
+    margin-bottom: 10px;
+    }
+
+    li a {
+    color: #1a0dab;
+    text-decoration: none;
+    }
+
+    li a:hover {
+    text-decoration: underline;
+    }
+
+    footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    }
+
+    </style>
+</html>
