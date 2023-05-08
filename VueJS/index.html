@@ -8,12 +8,16 @@
     <!-- vue  -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
     <!-- js  -->
-    <script src="script.js" ></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
 
-    <div id="root">
-        <p>{{message}}</p>
+    <div id="app">
+        {{message}}
+        <h1 v-bind:class="miaClasse"></h1>
+        <h1 v-if="awesome">vue is awesome</h1>
+        <h1 v-else>oh no</h1>
+        <li v-for="i in ciclo">{{i}}</li>
     </div>
 
 </body>

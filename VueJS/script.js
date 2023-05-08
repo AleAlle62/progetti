@@ -1,6 +1,9 @@
 var root = new Vue ({
-	el: '#root',
+	el: '#app',
     data: {
-        message : 'hello word',
+        message: 'hello word',
+        miaClasse : 'componente',
+        awesome : true,
+        ciclo : ['sofia', 'michele', 'tommaso'],
     },
 });
