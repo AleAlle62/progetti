@@ -1,4 +1,4 @@
-# prova_vue
+# vuecli
 
 ## Project setup
 ```
