@@ -1,6 +1,6 @@
 <template>
   <div>
-    
+    porfolio personale
   </div>
 </template>
 
