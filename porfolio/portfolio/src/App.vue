@@ -5,11 +5,13 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import MainContainer from './components/MainContainer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    MainContainer,
   }
 }
 </script>
