@@ -1,15 +1,12 @@
 <template>
   <div>
-    Alessio Allegrini
+    HeaderPage
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+  name: 'HeaderPage',
 }
 </script>
 

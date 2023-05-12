@@ -1,6 +1,6 @@
 <template>
     <div>
-        MAIN
+        MainPage
     </div>
 </template>
 
@@ -8,8 +8,5 @@
 <script>
 export default {
     name: 'MainContainer',
-    props: {
-        msg: String
-    }
 }
 </script>
