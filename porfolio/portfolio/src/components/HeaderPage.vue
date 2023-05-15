@@ -2,6 +2,7 @@
   <div class="header">
     <h1>Alessio Allegrini</h1>
     <h2>Full Stack Web Developer</h2>
+    <div>logo</div>
   </div>
 </template>
 
