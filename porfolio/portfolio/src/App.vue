@@ -26,12 +26,27 @@ export default {
 </script>
 
 <style>
-.blocchi {
+
+
+/* per mobile */
+@media (max-width: 768px) {
+  .blocchi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+}
+
+/* per desktop */
+@media (min-width: 768px) {
+  .blocchi {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  }
 }
+
+
 </style>

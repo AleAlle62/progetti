@@ -1,10 +1,16 @@
 <template>
   <div class="header">
-    <h1>Alessio Allegrini</h1>
-    <h2>Full Stack Web Developer</h2>
-    <div>logo</div>
+    <!-- titolo e immagine -->
+    <div class="main-header">
+      <div class="navbar">
+        <h3>Junior Full Stack Web Developer</h3>
+        <img src="../assets/profilo.jpeg" alt="">
+      </div>
+      <p>Coding is a never-ending learning journey, where every line of code is an opportunity to grow</p>
+    </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -14,10 +20,18 @@ export default {
 
 
 <style scoped>
-.header {
+.navbar {
   display: flex;
-  flex-direction: column;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  justify-content: space-around;
+
 }
 
+p {
+  font-size: 80%;
+}
+
+img {
+  border-radius: 70%;
+  height: 70px;
+}
 </style>
