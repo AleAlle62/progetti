@@ -6,7 +6,7 @@
         <h3>Junior Full Stack Web Developer</h3>
         <img src="../assets/profilo.jpeg" alt="">
       </div>
-      <p>"Coding is a never-ending learning journey, where every line of code is an opportunity to grow"</p>
+      <p>"Coding is a never-ending learning journey, where every line of code is an opportunity to grow</p>
     </div>
   </div>
 </template>
@@ -57,6 +57,7 @@ h3:before {
 }
 h3:hover {
   background-position: 0;
+  scale: 1.1;
 }
 h3:hover::before {
   width:100%;
