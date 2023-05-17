@@ -33,8 +33,8 @@ p {
 h4 {
     background-image: linear-gradient(
     to right,
-    #54b3d6,
-    #54b3d6 50%,
+    #ff1361,
+    #ff1361 50%,
     #000 50%
     );
     background-size: 200% 100%;
@@ -48,7 +48,7 @@ h4 {
 }
 h4:before {
     content: '';
-    background: #54b3d6;
+    background: #ff1361;
     display: block;
     position: absolute;
     bottom: -3px;

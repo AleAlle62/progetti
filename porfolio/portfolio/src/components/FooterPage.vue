@@ -1,6 +1,5 @@
 <template>
     <div>
-        FooterPage
     </div>
 </template>
 

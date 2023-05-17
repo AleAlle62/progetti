@@ -3,8 +3,15 @@
     <!-- titolo e immagine -->
     <div class="main-header">
       <div class="navbar">
-        <h3>Junior Full Stack Web Developer</h3>
-        <img src="../assets/profilo.jpeg" alt="">
+        <!-- neon  -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="animate-charcter">Full Stack Web Developer</h3>
+            </div>
+          </div>
+        </div>
+        <!-- <h3>Junior Full Stack Web Developer</h3> -->
       </div>
       <p>"Coding is a never-ending learning journey, where every line of code is an opportunity to grow</p>
     </div>
@@ -24,53 +31,41 @@ export default {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
 }
-
-/* TITOLO JUNIOR  */
-h3 {
-  background-image: linear-gradient(
-    to right,
-    #54b3d6,
-    #54b3d6 50%,
-    #000 50%
-  );
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-h3:before {
-  content: '';
-  background: #54b3d6;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-h3:hover {
-  background-position: 0;
-  scale: 1.1;
-}
-h3:hover::before {
-  width:100%;
-}
-/* FINE TITOLO */
 
 p {
   font-size: 50%;
   text-align: center;
 }
 
-img {
-  border-radius: 70%;
-  height: 70px;
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 </style>
